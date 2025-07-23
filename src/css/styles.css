@@ -16,3 +16,111 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+/* timer style */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+#datetime-picker {
+    /* border: 1px; */
+    border-radius: 4px;
+    /* width: 272px;
+    height: 40px; */
+    padding: 4px 16px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-right: 8px;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    color: #fff;
+    background-color: #4e75ff;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #cfcfcf;
+    color: #989898;
+}
+
+button:hover:enabled,
+button:focus:enabled {
+    background-color: #6c8cff;
+}
+
+.timer {
+    display: flex;
+    gap: 24px;
+    max-width: 346px;
+    margin-top: 32px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.value {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+
+.timer {
+width: 346px;
+margin: auto;
+display: flex;
+}
+
+/* snack */
+
+.form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    gap: 24px;
+}
+
+.labeL {
+    display: flex;
+    flex-direction: column;
+}
+
+.Fieldset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn {
+    border-radius: 8px;
+padding: 8px 16px;
+width: 360px;
+height: 40px;
+}
